@@ -91,9 +91,6 @@
     comment: Wedding, talk twice
     icon: npc
     coord: [3960.5, -1634]
-- _Shop<Sell all items to have 42K>:
-    notes: Sell Rubber Stuff + Climbing Gear + ores + meals
-    coord: [3964,-1634]
 - _Warp::Shrine::HaDahamar
 - _Location::BigTwinBridge
 - _Location::LittleTwinBridge
