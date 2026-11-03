@@ -1,0 +1,127 @@
+- _Korok::W15
+- _Material::Count<Rushroom,10>:
+    icon: purple
+    notes: On pillar and cliff as you climb to G34
+    coord: [-2818.375, 2251.5]
+- _Npc<Sesami>:
+    notes: Missing in Action
+    coord: [-2810.875, 2238.375]
+    vars:
+        - counter-location: .add(1) #GerudoCanyonStable
+- _Korok::G34:
+    comment: .gale(GALE 3)
+- _Shrine::DakoTah:
+    comment: Run around and mag box, throw it to metal, grab core, then go up elevator, get shield
+- _Chest<Ice Arrow x10>:
+    coord: [-3384, 2132]
+- _Korok::W17
+- _Korok::W29
+- _Npc::SheikaMale<Guy near shrine>:
+    comment: Benja
+    coord: [-3804.64, 149.50, 2818.36]
+- _Shrine::DaqoChisay:
+    comment: Mag box, spin with thunderblade
+- Shield surf to bazaar:
+    icon: shield
+    coord: [-3299.75, 2578.25]
+- _Equipment::Weapon<Double Axe>:
+    coord: [-3289.5, 2591]
+- _Npc::SheikaMale<Guy on platform>:
+    comment: Eye of the Sandstorm
+    coord: [-3282.89, 134.16, 2540.95]
+- _Cook<Cook food>:
+    notes: Elixir (winterwing butterfly + screw)
+    coord: [-3275.25, 2573.75]
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy clothes
+- _Npc::Rito<Rito Guy>:
+    comment: An Ice Guy
+    notes: Talk twice
+    coord: [-3238.62, 130.10, 2574.56]
+- _Memory::KaraKaraBazaar:
+    vars:
+        - counter-location: .add(1)
+- _Warp::Shrine::DaqoChisay
+- _Npc<Bozai>:
+    coord: [-3750,2874]
+    notes: Talk for snow boots
+- _Shop<Food shop>:
+    icon: shop
+    comment: Buy durians
+    coord: [-3819.75, 2878.75]
+- _Npc::Gerudo<Isha>:
+    notes: Tools of the Trade
+    coord: [-3831.5, 2895.25]
+    comment: Accept Ruby 
+- _Shop<Arrows shop>:
+    coord: [-3860, 2911.25]
+    comment: Sell ores but luminous stone and opal
+- _Tod::Noon:
+    coord: [-3833.5,2947.375]
+    notes: For quests
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+    vars:
+        - counter-location: .add(1)
+- _Npc::Gerudo<Teake>:
+    comment: So we can enter the hideout
+    coord: [-3922.5, 2939.5]
+- _Npc::Gerudo<Malena>:
+    notes: Medicinal Molduga
+    coord: [-3908.5, 2916.5]
+- _Npc::Gerudo<Laine>:
+    notes: The Silent Swordswomen
+    coord: [-3910, 2872.25]
+- _Npc::Gerudo<Kohm>:
+    comment: Take sand seal
+    coord: [-3906.25, 2880]
+- _Korok::W36
+- _Korok::W28
+- _Korok::W18
+- _Korok::W13
+- _Korok::W09
+- Activate .loc(Kema Zoos):
+    icon: shrine
+    notes: Don't enter the shrine or sandseal dissapears
+    coord: [-4670, 1987]
+- Sand Seal up Karusa Valley:
+    icon: shield
+    movements:
+    - to: [-4223, 2058]
+    - to: [-4347, 1753]
+    - to: [-4019.5, 1550]
+- _Shrine::ShoDantu:
+    comment: Run left, smash box, (rupee chest,) bomb arrow both sides, throw circle bomb, the bomb arrow + circle 
+- _Korok::W01
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3665, 1353]
+- _Equipment::Bow<Windcleaver>:
+    comment: headshot first guard for it
+- _Location::YigaClanHideout:
+    icon: tots
+    notes: Follow VOD .link([here]https://youtu.be/J3MWwgrkk9M?t=23577)
+    coord: [-3597.5, 1381]
+- _Chest<300 Rupees>:
+    comment: Grab both
+    coord: [-3523.75, 1365]
+- _Snap<Master Kohga>:
+    coord: [-3466, 1344.5]
+- .boss(Kohga):
+    icon: calamity
+    notes: Use Royal Claymore
+    coord: [-3466, 1344.5]
+- _Chest::Special<Thunder Helm>:
+    coord: [-3453.25, 1340.5]
+- _Material::Count<Lizalfos Tail,4>:
+    icon: malice
+    comment: Blizzard Rod + claymore
+    coord: [-3102, 1332]
+- _Material<Wood>:
+    coord: [-3105,1346.5]
+- _Chest<Fire arrow>:
+    coord: [-3121,1324.5]
+- _Shrine::KuhTakkar:
+    comment: 5-7 fire arrows to open, 3 hits aim up
+

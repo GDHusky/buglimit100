@@ -1,0 +1,139 @@
+- _Boss::Hinox::Blue:
+    comment: .fury(FURY 1-3)
+    coord: [-436, -2006]
+- _Tod::Night:
+    coord: [-430,-2000]
+    comment: For Stalnox
+- _Korok::K19
+- _Korok::K26
+- _Korok::K25
+- _Korok::K17
+- _Korok::K18
+- _Korok::K16
+- _Boss::Hinox::Stal:
+    comment: .fury(FURY 1-3)
+    notes: If Dinraal spawns get claw
+    coord: [-1289, -2108]
+- _Korok::K12
+- _Korok::K10
+- Use gale:
+    coord: [-1173.5,-2649]
+    icon: medoh-done
+    comment: .gale(GALE 1)
+- _Korok::H38
+- _Korok::H59
+- _Shrine::RinOyaa:
+    comment: Grab box, 3 hits
+- _Tod::Morning:
+    coord: [-1666, -2552.5]
+- _Npc<Stalhorse lady in stable>:
+    icon: npc
+    notes: Stalhorse - Pictured!
+    coord: [-1652, -2587]
+    vars:
+        - counter-location: .add(1)
+- _Korok::H37
+- _Korok::H52
+- _Korok::H58
+- _Korok::H62
+- .boss(Shoot Dinraal):
+    comment: Shoot claw (missing 0/1 claw)
+    icon: tots
+- _Location::PondosLodge
+- Use gale:
+    coord: [-2133,-2050]
+    icon: medoh-done
+    comment: .gale(GALE 2)
+- _TowerWithMap%::Hebra
+- _Korok::H61
+- _Korok::H57
+- .boss(Knock door down):
+    icon: tots
+    notes: .link([Snowball strat]https://youtu.be/CUhW2MnjNXU?t=14968)
+    coord: [-2462, -2287]
+- _Shrine::GeeHarah:
+    comment: Shoot up, (run left, shoot left,) run right, stasis, shoot both - (Diamond)
+- _Warp::Shrine::ShadaNaw:
+    color: blue
+- _Korok::H27
+- _Shrine::MozoShenno:
+    comment: 3x Barb - Major Test of Strength - Use previous Axe - Grab Axe and Diamond
+- _Korok::H26
+- _Korok::H25
+- _Warp::Shrine::ShadaNaw:
+    color: red
+- Tree Launch to H10:
+    coord: [-3037,-3251.5]
+- _Korok::H10:
+    comment: Place Travel Medallion
+- _Korok::H11
+- _KorokLoc<H09,Goflam's Secret Hot Spring>
+- _Korok::H04
+- _Tod::Night
+- _Boss::Hinox::Stal:
+    comment: .fury(FURY 1-3)
+    coord: [-4268, -3775]
+- _Korok::H01
+- _Shrine::HiaMiu:
+    comment: 3x Barb - Major Test of Strength - Use previous Axe - Grab Axe and Sapphire
+- _Location::SherfinsSecretHotSpring
+- Use gale:
+    coord: [-4302.5,-3524.5]
+    icon: medoh-done
+    comment: .gale(GALE 3)
+- _Korok::H07
+- _Korok::H08
+- _Korok::H02
+- _Warp::TravelMedallion<-3600,-3480>:
+    color: orange
+- _Korok::H19
+- _Korok::H18:
+    comment: Place Travel Medallion
+- Open door:
+    icon: tots
+    coord: [-3724, -3545.5]
+- _Snap<Hebra Leviathan>:
+    comment: Leviathan Bones
+    coord: [-3930, -3623]
+- _Shrine::ToQuomo:
+    comment: Blessing - Claymore
+- _KorokLoc<H03,Hebra Great Skeleton>
+- _Warp::TravelMedallion<-3850,-3350>:
+    color: white
+- _Korok::H17
+- _Korok::H24
+- Use gale:
+    coord: [-4275,-3144]
+    icon: medoh-done
+    comment: .gale(GALE 1)
+- Use gale:
+    coord: [-4302,-3162]
+    icon: medoh-done
+    comment: .gale(GALE 2)
+- _Korok::H23
+- _Korok::H32:
+    comment: Place Travel Medallion
+- _Korok::H40
+- _Boss::Hinox::Black:
+    comment: .fury(FURY 1-3)
+    coord: [-4520, -2681]
+- Start T06 Race:
+   coord: [-4496,-2520]
+   icon: tots
+- _Korok::H53
+- _Korok::T06:
+    coord: [-4396,-2052]
+- _Korok::T07
+- _Korok::H60
+- _Warp::TravelMedallion<-4400,-2870>:
+    color: blue
+- _Korok::H39
+- _Location::SturnidaSecretHotSpring
+- _Korok::H41:
+    comment: .gale(GALE 3)
+- _Korok::H42
+- _Korok::T01
+- _Shrine::MakaRah:
+    comment: Light torch, Shock arrow water, (10 bombs in chest), hug left side, stasis
+- _Warp::Shrine::TahnoOah:
+    color: purple

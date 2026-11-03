@@ -1,0 +1,65 @@
+- _Korok::C01
+- _Boss::Hinox::Blue:
+    comment: Use RGC + 2 phatom pieces
+    coord: [-690, -1313]
+- _Material<Wood>:
+    coord: [-709, -1311]
+    comment: Grab Axe as well
+- _Korok::K29
+- _Korok::R07
+- _Memory::IrchPlain
+- _Material::Count<Fleet-Lotus Seeds,13>:
+    comment: Grab last frogs, if you have more than 5, it's perfect
+    coord: [-1159, -1350]
+- _Korok::K24
+- _Material::Count<Fleet-Lotus Seeds,2>:
+    coord: [-1234, -1556]
+- _Material::Count<Endura Shroom,3>
+- Tree Launch to Monya Toma:
+    coord: [-1241,-1577]
+- _Shrine::MonyaToma:
+    comment: face away slam attack with orb
+- Break rubbles in front of shrine:
+    coord: [-1961,-1487.5]
+    icon: tots
+- _Shrine::MaagNorah:
+    comment: Blessing - Silver Rupee
+- _Korok::R03:
+    comment: Go down one floor
+- _Boss::Talus::Luminous:
+    comment: Use RGC + 2 phatom pieces
+    coord: [-2170, -1596]
+- _Korok::R02
+- .item(Tame another horse):
+    notes: If that horse is better, keep, if not, leave
+    coord: [-2120, -1398]
+    icon: tots
+- _Korok::R05
+- _Location::FootraceCheckIn
+- _Material::Count<Hearty Bass,5>:
+    comment: Shock them
+    icon: malice
+    notes: You need 15 at end of the run
+    coord: [-2698, -883]
+- _Chest<Shock Arrow x5>
+- _Korok::R13
+- _Korok::R17
+- _Location::TabanthaBridgeStable
+- _Material<Wood>
+- .item(Register horse)
+- _Npc<Guy at cookpot>:
+    icon: npc
+    notes: A Gift For the Great Fairy
+    comment: In stable if raining or night.
+    coord: [-2911.25, -566.75]
+- _Npc<Beedle>:
+    icon: shop
+    comment: Sell all ores+armor but luminous stones, opal and flint, buy arrows and 1 winterwing butterfly
+    coord: [-2907.25, -539.5]
+- _Material<Wood>
+- _Npc::SheikaMale<Pointing guy>:
+    coord: [-2942.5,-485.5]
+    comment: Geggle
+    notes: Between 8am and midnight
+- _Shrine::ShaeLoya:
+    comment: Stasis orb, shoot it, shoot ropes, grab bow, shoot switch, glide to topaz

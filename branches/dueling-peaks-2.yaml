@@ -1,0 +1,49 @@
+- _Korok::D16
+- Use gale:
+    coord: [1140.5,1323.5]
+    icon: medoh-done
+    comment: Use cryonis to go acros the pond .gale(GALE 1)
+- _Korok::D17
+- _Boss::Talus::Stone:
+    comment: .fury(FURY 1)
+    coord: [1477, 1334]
+- _Korok::D18
+- _Korok::D19
+- Use gale:
+    coord: [1650,1296.5]
+    icon: medoh-done
+    comment: Use cryonis to go acros the pond .gale(GALE 2)
+- _Korok::D09
+- _Tod::Morning:
+    coord: [1662.25,1162.5]
+- _Korok::D10
+- _Material::Count<Energetic Rhino Beetle,1>:
+    icon: malice
+    coord: [1811.1626162938874,1049.9426078641163]
+- _Tod::Noon:
+    coord: [1799.5, 1015.5]
+- _Npc<Koko>:
+    comment: .boss(4 Quests) then sell everything at arrow shop.
+    icon: npc-sheika-female
+- _Npc::SheikaFemale<Impa>:
+    comment: For tunic + memory
+    icon: npc-sheika-female
+    coord: [1777, 985.5]
+- _Tod::Morning:
+    coord: [1799.5, 1015.5]
+- _Material<Energetic Rhino Beetle>:
+    icon: malice
+    coord: [1952.25,1061.4375]
+- _Korok::D11
+- Use gale:
+    coord: [2142,1085]
+    icon: medoh-done
+    comment: .gale(GALE 3)
+- _Korok::D07
+- _Korok::N11
+- _Korok::N13
+- .boss(Shoot Naydra):
+    comment: Last part 2S 2F 2C 4H
+    icon: tots
+    coord: [2682,994]
+- _Warp::Shrine::MonyaToma

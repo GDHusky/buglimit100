@@ -1,0 +1,45 @@
+- _Korok::G17
+- _Boss::Talus::Frost:
+    comment: Place Travel Medallion
+    coord: [-2924.75, 1298.75]
+- _Korok::G18
+- _Korok::G13
+- _Korok::G19
+- _Korok::G14
+- _Korok::R75
+- _Korok::R76
+- _Korok::R77
+- _Korok::R78
+- _Warp::TravelMedallion<-2920, 1300>:
+    color: yellow
+- _Korok::G23
+- _Korok::G27
+- _Korok::G28
+- _Korok::G24
+- _Warp::Shrine::ZeKasho
+- Tree Launch to A41:
+    coord: [3066,-1614]
+- _KorokLoc<A41,Akkala Citadel Ruins>
+- _Korok::A40
+- _Korok::A39
+- Box Launch up to tower
+- _TowerWithMap%::Akkala
+- _Korok::A42
+- _Korok::A43
+- Tree Launch to A46:
+    coord: [3301.5,-1431.5]
+- _Korok::A46
+- Tree Launch to Loc:
+    coord: [3417,-1268.5]
+- _Location::AkkalaBridgeRuins
+- Get Rock of A45:
+    coord: [3097,-1343]
+    icon: tots
+- _Korok::A45
+- _KorokLoc<A50,Akkala Span>
+- _Boss::Hinox::Blue:
+    comment: .fury(FURY 1-3)
+    coord: [3292, -1252.5]
+- _Location::AkkalaParadeGroundRuins
+- _Warp::Tower::DuelingPeaks:
+    color: orange

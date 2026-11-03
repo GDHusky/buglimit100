@@ -1,0 +1,26 @@
+- _Npc<Hudson>:
+    comment: Give 50 wood
+    icon: npc
+    notes: From the Ground Up
+    coord: [3987, -1603.5]
+- _Warp::Tower::Lanayru
+- _Korok::Z22
+- _Korok::Z31
+- _Npc::ZoraFemale<Finley>:
+    comment: Start Letter quest, shoot letter
+    icon: npc-zora-female
+    coord: [2757, -86.5]
+- _Korok::Z23:
+    comment: .gale(GALE 3)
+- .item(Grab Letter):
+    icon: bow
+    coord: [2741.3333740234375,-98]
+- _Boss::Hinox::Black:
+    comment: .fury(FURY 1-3), Grab Claymore and bow
+    coord: [2477.5, -133]
+- _Location::InogoBridge
+- .boss(Deliver letter):
+    icon: tots
+    coord: [1761, -52]
+- _Warp::Shrine::ShaeMosah:
+    color: blue

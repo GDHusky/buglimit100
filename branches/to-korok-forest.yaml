@@ -1,0 +1,160 @@
+- _Korok::Z13
+- _Korok::Z12
+- _Korok::K35
+- _Korok::Z02
+- _Korok::Z03
+- _KorokLoc<C13,Thims Bridge>
+- _Korok::Z11
+- _Korok::Z21
+- Tree Launch from Z21 to Z29:
+    coord: [1122.4046460519494,-220.425183018604]
+- _Korok::Z29
+- _KorokLoc<C46,Rebonae Bridge>
+- _Korok::C51
+- _Boss::Hinox::Blue:
+    comment: Any weapon
+    coord: [408, 306]
+- _Korok::C50
+- _Korok::C44
+- _Chest::Special<Tingle's Tights>:
+    coord: [-31, 211]
+    vars:
+        - counter-location: .add(1) #MabeVillageRuins
+- _Korok::C45
+- _Korok::C34
+- _Boss::Hinox::Blue:
+    comment: .fury(FURY 1-3)
+    coord: [629.75, -303.75]
+- _Korok::C23
+- _Location::OrseddBridge
+- _Korok::C18
+- _Korok::C19
+- _Korok::C12
+- _Shrine::NamikaOzz:
+    comments: Modest Test of Strength
+    notes: Grab axe and frostpear, .important(DON'T THROW THEM) you need them for The Weapon Connoisseur
+- _Korok::C09
+- _Korok::C11
+- _Korok::C06
+- _Boss::Talus::Luminous:
+    comment: Use stone smasher, place Travel Medallion
+    coord: [779.5, -1020]
+- _Npc<Balloon Girl>:
+    coord: [1080.50, 127.38, -1125.00]
+    notes: 7am-8pm. Make noon if needed.
+    comment: Shamae
+    vars:
+        - counter-location: .add(1) #WoodlandStable
+- Make a barrel fly with octo ballon:
+    notes: Ballon Flight
+    icon: tots
+    coord: [1075.9375,-1128.625]
+- _Korok::K34
+- _Korok::K33
+- _Shrine::MirroShaz:
+    comment: 5 hits for hole in one, then bomb arrow (Sledgehammer in chest if low)
+- Use gale:
+    coord: [1239.5625,-1193]
+    icon: medoh-done
+    comment: .gale(GALE 1)
+- _Material::Count<Lizalfos Tail,2>:
+    icon: malice
+    comment: 2 if lucky
+    coord: [1292, -1238.5]
+- _Korok::E35
+- _Material::Count<Lizalfos Tail,2>:
+    icon: malice
+    coord: [1197, -1258.5]
+- _Korok::K32
+- _Location::MilitaryTrainingCamp
+- _Korok::K31
+- Use gale:
+    coord: [982.75,-1577.75]
+    icon: medoh-done
+    comment: .gale(GALE 2)
+- Use gale:
+    coord: [941,-1624.5]
+    icon: medoh-done
+    comment: .gale(GALE 3)
+- _Tower::Woodland
+- Through Lost Woods:
+    comment: Pickup Korok Mask on the way
+    icon: chest-special
+    movements:
+    - to: [932, -1867]
+    - to: [721, -1847]
+    - to: [548.5, -1941.75]
+    vars:
+        - counter-location: .add(1)
+- _Npc<Tasho>:
+    coord: [256.19, 281.61, -2229.61]
+    notes: Move forward until you hear Oaki's dialogue to trigger the escort. Don't follow Oaki; he'll move along his path while we do the next steps. Note the in-game time that he starts moving; he will arrive at the shrine 5:20 later.
+    vars:
+        - counter-location: .add(1)
+- _Npc<Walton>:
+    icon: npc
+    notes: Apple, Sunshroom, Trout, Lynel Hoof, Pumpkin
+    comment: Drop all items in a single throw
+    coord: [420, -2180]
+- Activate .loc(Keo Ruug):
+    icon: shrine
+    coord: [474.69, 248.84, -2167.82]
+    notes: Don't enter shrine or Oaki will reset
+- _Npc<Hestu>:
+    comment: 7 weapon, 6 bow, 15 shield
+    icon: hestu
+    coord: [463, -2110]
+- _Npc<Goddess Statue>:
+    icon: link
+    notes: 7 heart containers
+    coord: [417.75, -2178.75]
+- .important(Master Sword):
+    icon: equipment
+    coord: [434.25, -2110.75]
+- _Material::Count<Silent Princess,1>:
+    icon: malice
+    coord: [430.375, -2115]
+- _Npc<Kula>:
+    comment: Freezing Rod (can get rid of rod now)
+    coord: [419.28, 248.65, -2134.93]
+- _Npc<Peeks>:
+    coord: [441.00, 248.56, -2133.05]
+    comment: Legendary Rabbit Trial
+- _Shop<Buy Rushrooms>:
+    coord: [432.875, -2179.125]
+- _Material::Count<Rushroom,4>:
+    icon: purple
+    comment: from above step
+- _Shop<Buy all arrows>:
+    coord: [418.5, -2183.375]
+- Sell ores:
+    comment: All but opal
+    icon: shop
+- _Material<Restless Cricket>:
+    comment: On the way to Oaki
+    notes: You should have 10 crickets
+    coord: [156.5, -2346]
+- _Material<Courser Bee Honey>:
+    coord: [178.25,-2311.5]
+- _Shrine::DaagChokah:
+    comment: Blessing - Ancient Core
+- _Warp::Shrine::KeoRuug
+- Trial of the Sword:
+    comment: Watch a video
+- _Shrine::KeoRuug:
+    notes: 5, 3, 1, 2
+- _Npc<Damia>:
+    icon: npc
+    notes: The Test of Wood
+    coord: [561, -2161]
+- _Shrine::MaagHalan:
+    comment: Blessing - Giant Ancient Core
+- _Warp::Shrine::KeoRuug
+- _Npc<Zooki>:
+    icon: npc
+    notes: Trial of Second Sight
+    coord: [257, -1983.5]
+- _Shrine::KuhnSidajj:
+    comment: Blessing - Giant Ancient Core
+- _Warp::TravelMedallion<770,-1010>:
+    color: rgb(227, 11, 180)

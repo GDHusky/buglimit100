@@ -1,0 +1,208 @@
+- _Boss::Talus::Stone:
+    comment: Use Hammer
+    coord: [1186.62, 254.28, 1642.77]
+- _Material<Wood>:
+    coord: [1362.3125,1652.0625]
+    comment: Smash boxes nearby
+- _Chest<Iron Sledgehammer>:
+    coord: [1372.75, 325.4, 1660.55]
+- _Korok::D30
+- Rock of D41:
+    coord: [1384.824968971895,1855.001253609993]
+    icon: tots
+- _Korok::D41
+- _Korok::D40
+- Climb up cliff
+- _Shrine::SheeVaneer:
+    comment: Bottom-Right->up/left, left->down/left, up->right, up->down/left, right->up/right
+- _Korok::D49
+- Drop down
+- _Shrine::SheeVenath:
+    comment: Bottom-Left->up/right, right->down/right, left->left, up->up/right, right->down/left
+- _Korok::D48:
+    notes: Smash deposits for ore, needed for money
+- _Shrine::ReeDahee:
+    comment: .important(GET CLIMBER'S BANDANNA)
+- _Chest<Traveller's Bow>:
+    comment: Break Rubbles
+    coord: [1329.3, 116.93, 1863.99]
+- _Material::Count<Swift Violet,6>:
+    notes: Shoot them down off of the cliff
+    coord: [1650, 1906.5]
+    icon: malice
+- _Shrine::HaDahamar:
+    comment: Cryo
+- _Npc<Beedle>:
+    comment: Sell all ores and Climber's Bandanna 
+    icon: shop
+    notes: Buy all arrows, crickets and frogs (for quest). Don't sell flint/rock salt
+    coord: [1764.5, 1926.25]
+    vars:
+        - counter-location: .add(1) #DuelingPeaksStable
+- _Npc::SheikaMale<Rensa>:
+    notes: take .item(horse)
+    icon: npc-sheika-male
+    coord: [1755, 1927.625]
+- _KorokLoc<D20,Kakariko Bridge>
+- _Chest<Ice Arrows x5>:
+    notes: Break crates
+    coord: [1773, 1552.5]
+- _Chest::Special<Hestu's Maracas>:
+    notes: Kill boko with bomb arrow, soldier bow and Hammer
+    coord: [2172.24, 218.76, 1369.2]
+- _Korok::D21:
+    notes: drownwarp in water
+- _Npc<Hestu>:
+    comment: 1 weapon, 1 bow upgrade
+    icon: hestu
+    coord: [2063.5, 1424]
+- _Korok::D12
+- _Material<Energetic Rhino Beetle>:
+    coord: [1952.25,1061.4375]
+    icon: malice
+    notes: Don't give them to Beedle. You need 15 at end of the run, you are close.
+- _Npc<Goddess Statue>:
+    comment: Get 2 stamina
+    icon: link
+    coord: [1841.5, 998.625]
+- _Npc::SheikaFemale<Impa>:
+    comment: Talk Twice
+    icon: npc-sheika-female
+    notes: For quests
+    coord: [1774.75, 984.75]
+- _Material<Energetic Rhino Beetle>:
+    icon: malice
+    coord: [1811.1626162938874,1049.9426078641163]
+- _Shop<Food Shop>:
+    comment: Buy everything but eggs
+    coord: [1794.2002325877747,1029.3852157282327]
+- _Cook<Speed Food>:
+    comment: 3 elixirs, Eat Them
+    notes: 1 boko gut, 1 frog, 1 carrot and 2 violets
+    coord: [1794.75, 1012]
+- _Tod::Night
+- _Shop<Arrow Shop>:
+    comment: Buy everything
+    coord: [1823.875, 1039.375]
+- _Npc::SheikaFemale<Arrow Shopkeeper>:
+    icon: npc-sheika-female
+    comment: Arrows of Burning Heat
+    coord: [1830.5, 1043]
+- _Korok::D04
+- _Material<Blue Nightshade>:
+    coord: [1731.5,993.5]
+    icon: malice
+    notes: A Gift of Nightshade
+- _Chest<Phrenic Bow>:
+    coord: [1720.91, 323.75, 996.82]
+- Activate .loc(Ta'loh Naeg):
+    icon: shrine
+    notes: Don't beat the shrine yet
+    coord: [1836.5, 892]
+- _Korok::Z50
+- _Shrine::DakaTuss:
+    comment: Mag
+- _Location::GopongaVillageRuins
+- _Korok::Z38
+- _Korok::Z39
+- _Korok::Z40
+- .item(Gather Fleet Lotus):
+    icon-doc: malice
+    notes: You should have 32 Fleet Lotus. Search them around markers
+    markers:
+    - [1956.6666870117188,392.6666564941406]
+    - [1929.6666870117188,274.6666564941406]
+    - [1777.6666870117188,157.66665649414062]
+    - [1688.6666870117188,140.66665649414062]
+    - [1710.6666870117188,52.666656494140625]
+- _Korok::N01
+- _Warp::Shrine::SheeVaneer:
+    color: rgb(9, 227, 56)
+- _Boss::Talus::Stone:
+    comment: Use hammer
+    coord: [1225, 2182]
+- _Korok::F01
+- _Korok::F05
+- _Material::Count<Endura Shroom,2>:
+    coord: [1694, 2576.75]
+- _Material::Count<Hearty Radish,1>:
+    coord: [1723.75, 2591.5]
+- _Material::Count<Hearty Truffle,1>:
+    coord: [1761.5, 2725.5]
+- Make Campfire:
+    comment: For Farosh farming
+    icon: cook
+    coord: [1762.75, 2825.75]
+- .boss(Farm Farosh parts):
+    notes: 36 Horn, 2 Claw, 3 Scale, 1 Fang. Throw torch
+- .item(Dragon parts):
+    icon: tots
+    coord: [1876,2940.5]
+- _Chest<Phrenic Bow>:
+    coord: [1789,2948]
+- _Chest<Shock Arrow x5>
+- _Korok::F17
+- .item(Rest dragon parts):
+    icon: tots
+    coord: [1707.25, 3000.5]
+- _Korok::F26
+- _Chest::Special<Phantom Ganon Skull>:
+    coord: [1669.19, 209.34, 3163.02]
+- _Material::Count<Energetic Rhino Beetle,5>:
+    notes: .link([Beetle route]https://youtu.be/J3MWwgrkk9M?t=7319)
+    icon: malice
+    coord: [1550.5, 3257.5]
+- Tree Launch up to Tower:
+    coord: [1357.25,3327.75]
+- _Tower::Faron
+- _Korok::F25
+- _Material::Count<Hearty Durian,17>:
+    comment: For heal
+- _Material<Wood>:
+    notes: Both of these can vary
+    comment: Goal is to have 7-10
+- _Equipment::Weapon<Woodcutter's Axe>:
+    comment: on top of horse head
+    notes: Thunder Magnet
+    coord: [1550.75, 3542.25]
+    vars:
+        - counter-location: .add(1)
+- _Korok::F41:
+    comment: Below horse's head, use bomb arrow
+- _Shrine::ShaiUtoh:
+    comment: Stasis, run up, mag chest, grab core
+- _Cook<Cook food>:
+    notes: all 1x endura food, 3x durians for hearty food, remaining 1x hearty, All Speed food (3 lotus, 1 swift carrot and 1 farosh horn)
+- _Npc::SheikaFemale<Lady by horses>:
+    icon: npc
+    comment: Awake from 7am - 9pm
+    coord: [1546.25, 3533.75]
+- _Korok::F40
+- _Korok::F39
+- _Korok::F38
+- Rock of L79:
+    coord: [1019,3661.5]
+    icon: tots
+- _Korok::L79
+- _Korok::L92
+- _Korok::L78
+- _Chest::Special<Ancient Saddle>:
+    comment: And Enduras
+    coord: [812, 3700]
+- .boss(Open fairy fountain):
+    icon: tots
+    coord: [797, 3717]
+    vars:
+        - counter-location: .add(1) #MalanyaSpring
+- _Korok::L77
+- _Location::HorseGodBridge
+- _Korok::L75
+- .item(Put saddle on horse):
+    icon: horse
+    coord: [532, 3434]
+    vars:
+        - counter-location: .add(1) #HighlandStable
+- _Shrine::KaoMakagh:
+    comment: Blow up rocks, get bow, mag door, get rupee
+- _Warp::Shrine::HaDahamar:
+    color: yellow

@@ -1,0 +1,71 @@
+- _Korok::C85
+- _Korok::R80
+- _Korok::C86
+- _Korok::G29
+- _Shrine::DahKaso:
+    comment: Minor Test of Strength - Ancient Core
+- Use gale:
+    coord: [-1716.75,1724.75]
+    icon: medoh-done
+    comment: .gale(GALE 1)
+- _Boss::Hinox::Blue:
+    comment: Best Weapon
+    coord: [-1698, 1776.5]
+- _KorokLoc<C88,Digdogg Suspension Bridge>:
+    comment: Drownwarp
+- _Location::GerudoCanyonPass
+- _Korok::G36
+- _Korok::W20
+- _Korok::W21
+- _Shrine::JeeNoh
+- _Korok::W14
+- _Boss::Talus::Luminous:
+    comment: .fury(FURY 1-2)
+    coord: [-1888, 2042]
+- _Npc<Palme>:
+    comment: Missing in Action
+    coord: [-2063.50, 208.00, 1994.50]
+- _Korok::W07
+- _Npc<Zyle>:
+    notes: A Good-Sized Horse
+    coord: [-2054,1978]
+- Use gale:
+    coord: [-2054,1978]
+    icon: medoh-done
+    comment: .gale(GALE 2)
+- _Npc<Oliff>:
+    comment: Missing in Action
+    coord: [-2055.00, 209.05, 1742.00]
+- _Npc::Goron<Bayge>:
+    notes: Test of Will
+    coord: [-2004, 1740.75]
+- _Shrine::JolooNah:
+    comment: Electric Arrow, Stasis, Fire Arrow
+- _Npc<Flaxel>:
+    comment: Missing in Action
+    coord: [-2163.76, 249.00, 1707.54]
+- _Npc<Canolo>:
+    comment: Missing in Action
+    coord: [-2187.78, 207.99, 1691.46]
+- _Korok::G32
+- _Korok::W08
+- _Boss::Talus::Luminous:
+    comment: .gale(GALE 3) .fury(FURY 3) Best Weapon
+    coord: [-2273, 1980]
+- _Korok::W10
+- _Material::Count<Rushroom,4>:
+    icon: purple
+    notes: SHOULD have 55 by now
+    coord: [-2794, 2245.5]
+- _Npc<Sesami>:
+    icon: npc
+    comment: Missing in Action
+    coord: [-2817.5, 2238]
+- _Npc<Pirob>:
+    comment: Give 55 rushrooms
+    icon: npc
+    notes: Rushroom Rush!
+    coord: [-2790.5, 2237]
+- _Location::GerudoDesertGateway
+- _Warp::Shrine::KuhTakkar:
+    color: red
